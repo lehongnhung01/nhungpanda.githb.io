@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.khoiicon i {
+    padding: 7px;
+}
+
+span {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.khoiicon {line-height: 512px;font-size: 19px;}
+
+
+.layer2 {
+    background-color: #00000042;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.4s;
+    color: #ffff;
+}
+
+.chialayer:hover .layer2 {
+    opacity: 1;
+    transition: 0.4s;
+}
+p.end {
+    color: #898282;
+    margin: 10px 0;
+}
+
+.icon a {
+    color: var(--den);
+    font-size: 19px;
+    padding: 10px;
+}
+
+a:hover {
+    color: var(--vang);
+    transition: 0.4s;
+}
+
+.footer.bg-light {
+    padding: 20px;
+}
+
+
+
+.khoi2.text-center {
+    padding: 145px 0;
+}
+
+p.ghichu {
+    font-size: 19px;
+}
+
+.khoi2 i {
+    font-size: 62px;
+    margin: 40px 0 20px 0;
+    color: var(--den);
+}
+
+.khoi2 i:hover {
+    color: var(--vang);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.khoi1 {
+    padding: 145px 0;
+}
+
+p.mota.mota1 {
+    font-size: 19px;
+    margin-bottom: 45px;
+    color: #898282;
+}
+
+h2.tieude {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img.layer1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.chialayer {
+    width: 350px;
+    height: 512px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.ke-ngang {
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.sao {
+    display: flex;
+    width: 336px;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+p.gioithieu {
+    text-align: center;
+    font-size: 18px;
+    width: 970px;
+    margin: auto;
+}
+
+
+p.motadau {
+    font-size: 32px;
+    letter-spacing: 2.5px;
+}
+
+h1.tieude1 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img.avt {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 30px;
+    border: solid 15px #ffffff5e;
+    cursor: pointer;
+}
+
+header {
+    background-color: var(--vang);
+    padding: 160px;
+}
+
+
+nav {
+    background-color: var(--den);
+    color: #ffff;
+    height: 96px;
+    cursor: pointer;
+}
+
+p.menu {
+    font-size: 18px;
+    padding: 16px 20px;
+    margin: 0;
+    border-radius: 6px;
+}
+
+p.menu:hover {
+    color: var(--vang);
+    transition: o.4s;
+}
+
+p.logo {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 56px;
+}
+
+p.logo:hover {
+    color: var(--vang);
+    transition: 0.4s;
+}
+
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    --den: #000000;
+    --vang: #ecb807;
+}
+
+nav.d-flex.align-items-center.fixed-top.thunho {
+    height: 80px;
+}
+
+nav.thunho p.logo {
+    font-size: 28px;
+}
+
+.menu.active {
+    background-color: var(--vang);
+}
+
+.menu.active:hover {
+    color: white;
+}
